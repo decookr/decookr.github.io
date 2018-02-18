@@ -3,24 +3,60 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     color: rgb(114, 100, 100);
+    font-family: 'Raleway', sans-serif;
 }
 
 .div1 {
+    padding: 10%;
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.90;
 }
 
 .div2 {
+    padding: 10%;
     background-color: black;
-    opacity: 0.95;
-    color: rgb(201, 190, 190);
+    opacity: 0.90;
+    color: rgb(224, 213, 213);
 }
 
 .center-text {
-    text-align: center;
+    /* text-align: left; */
     opacity: 1.0;
 }
 
 .space{
-    height: 5em;
+    height: 8em;
+}
+
+.head {
+    /* background-image: url('../images/bg3.jpeg'); */
+    opacity: 0.90;
+    background-size: 100%;
+    color: black;
+    text-shadow: 0.5px 0.5px #cec2c2;
+}
+
+li {
+    list-style: none;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(224, 213, 213);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(224, 213, 213);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(224, 213, 213);
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgb(224, 213, 213);
 }
