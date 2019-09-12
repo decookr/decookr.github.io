@@ -9,7 +9,7 @@ body {
 .div1 {
     padding: 10%;
     background-color: white;
-    opacity: 0.90;
+    opacity: 0.97;
 }
 
 .div2 {
@@ -31,7 +31,7 @@ body {
 .head {
     /* background-image: url('../images/bg3.jpeg'); */
     background-color: white;
-    opacity: 0.90;
+    opacity: 0.97;
     background-size: 100%;
     color: black;
     text-shadow: 0.5px 0.5px #cec2c2;
@@ -71,4 +71,22 @@ a:active {
 .box {
     padding: 20px;
     border: solid;
+}
+
+.tech-used {
+    margin-bottom: 16px;
+}
+
+.flex--row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-right-sm {
+    margin-right: 16px;
 }
